@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+
+        .flex-container {
+            background-color: white;
+            width: 100%;
+            height: 100vh;
+        }
+
+        .item2 {
+            display: flex;
+        }
+
+        #header {
+            width: 100%;
+            height: 20vh;
+            background-color: rgb(134, 218, 8);
+
+        }
+
+        #footer {
+            width: 100%;
+            height: 20vh;
+            background-color: rgb(134, 218, 8);
+        }
+
+        .artical {
+            background: rgb(233, 236, 233);
+            height: 60vh;
+            width: 60%;
+        }
+
+        .aside {
+            height: 60vh;
+            width: 20%;
+            background-color: rgba(23, 248, 199, 0.938);
+
+        }
+
+        .nav {
+            height: 60vh;
+            width: 20%;
+            background-color: rgb(17, 206, 212);
+        }
+
+        #one {
+            padding-top: 1%;
+            margin-left: 1%;
+        }
+
+        #last {
+            padding-top: 1%;
+            margin-left: 1%;
+        }
+        #art {
+            padding-top: 1%;
+            margin-left: 1%;
+        }
+        #middle {
+            padding-top: 3%;
+            margin-left: 3%;
+        }
+        #nar {
+            padding-top: 3%;
+            margin-left: 3%;
+        }
+      
+    </style>
+</head>
+
+<body>
+    <div class=flex-container>
+        <div class="item1" id="header">
+            <p id="one">Header</p>
+        </div>
+        <div class="item2">
+            <div class="artical">
+                <p id="art">Artical</p>
+            </div>
+            <div class="aside" id="aside">
+                <p id="middle">Aside</p>
+            </div>
+            <div class="nav" id="nav">
+                <p id="nar">Nav</p>
+            </div>
+        </div>
+        <div class="item3" id="footer">
+            <p id="last">Footer</p>
+        </div>
+    </div>
+</body>
+
+</html>
